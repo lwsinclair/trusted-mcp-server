@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/0xfreysa-trusted-mcp-server-badge.png)](https://mseep.ai/app/0xfreysa-trusted-mcp-server)
+
 # Trusted GMail MCP Server
 
 This is a gmail [MCP](https://modelcontextprotocol.io/introduction) server running inside a secure [AWS Nitro](https://aws.amazon.com/ec2/nitro/) enclave instance. It was originally forked from the [Claude Post](https://github.com/ZilongXue/claude-post) MCP server. Most MCP servers are run locally via the `stdio` transport; we followed [this guide](https://www.ragie.ai/blog/building-a-server-sent-events-sse-mcp-server-with-fastapi) to implement a remote MCP server using `sse` transport.
